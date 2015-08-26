@@ -3,7 +3,7 @@ from nltk.stem.api import StemmerI
 
 class Stemmer(StemmerI):
 	def __init__(self):
-		self.ends = ['ên', 'an', 'yan', 'mend', 'em', 'êmin', 'in', 'tir']
+		self.ends = ['é','í', 'a', 'ek', 'van', 'dar', 'kar', 'xane', 'stan', 'geh', 'én', 'an', 'yan', 'mend', 'em', 'émin', 'in', 'tir']
 	def stem(self, word):
 
 
